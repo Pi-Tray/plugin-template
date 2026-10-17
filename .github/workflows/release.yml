@@ -13,4 +13,4 @@ permissions:
 
 jobs:
   release:
-    uses: Pi-Tray/Pi-Tray/.github/workflows/plugin-release.yml@plugin-build-v0.1.0-alpha
+    uses: Pi-Tray/Pi-Tray/.github/workflows/plugin-release.yml@plugin-build-v0.1.0-alpha.1
