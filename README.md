@@ -28,3 +28,17 @@ People install it in the Pi-Tray Editor with your repo's name, e.g. `your-name/p
 If a dependency has a native module, building needs the Node version the Pi-Tray server ships with, and CI builds each platform on its own runner. Pure JavaScript plugins build on any Node, into one archive for every platform.
 
 Build settings (the entry file, dependencies to leave out, which platforms to build) go in a `"pi-tray"` field in `package.json`, see [@pi-tray/plugin-build](https://github.com/Pi-Tray/Pi-Tray/tree/main/packages/plugin-build).
+
+## Adding an express install button to the README
+
+Copy this HTML to embed an express install button in your README (or any other website!):
+
+```html
+<a target="_blank" rel="noreferrer noopener" href="https://pi-tray.github.io/express-redirect/?spec=SPECHERE">
+    <img width=300 alt="One click install NAMEHERE with Pi-Tray Editor" src="https://raw.githubusercontent.com/Pi-Tray/Pi-Tray/refs/heads/main/branding/express_button.svg" />
+</a>
+```
+
+Be sure to replace `SPECHERE` with the install spec, e.g. for GitHub repos, user/repo. Replace NAMEHERE with some friendly name for the package to help screen readers.
+
+
